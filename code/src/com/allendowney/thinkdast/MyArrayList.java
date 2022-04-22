@@ -12,8 +12,8 @@ import java.util.ListIterator;
  *
  */
 public class MyArrayList<T> implements List<T> {
-	int size;                    // keeps track of the number of elements
-	private T[] array;           // stores the elements
+	int size;                    // keeps track of the number of elements //记录元素的数量
+	private T[] array;           // stores the elements  ：//存储元素
 
 	/**
 	 *
